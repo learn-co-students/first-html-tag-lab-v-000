@@ -14,3 +14,19 @@
 
     Does your H1 have exactly \"Hello, World!\" inside the opening and closing tag?
   MSG
+
+3: |
+  <<-MSG
+    expected: not nil
+    got: #{value.inspect}
+    
+    Did you code an <a>Tag</a> in index.html?
+  MSG
+  
+4: |
+  <<-MSG
+    expected: not nil
+    got: #{value.inspect}
+    
+    Did you code an <img src="URL of Pic">?
+  MSG
